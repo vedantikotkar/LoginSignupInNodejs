@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="public/login.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .b{
+        background-color: aqua;
+        margin-top:20px;
+        height:400px;
+        width:350px;
+        margin-left:500px;
+    }
+    .c{
+        margin-top:50px;
+        margin-left:70px;
+
+    }
+    .name{
+ margin-left:70px;
+ margin-top:80px;
+    }
+    .pass{
+ margin-left:70px;
+ margin-top:40px;
+    }
+    .btn{
+        background-color: blue;
+        color:aliceblue;
+         margin-left:70px;
+         margin-top:70px;
+    }
+    .anchor{
+        margin-top:40px;
+    }
+    </style>
+</head>
+<body>
+    <div class="b">
+    <h2 class="c">LogIn</h2>
+    <form action="/login" method="post">
+    <div class="name">
+    <label>YourName*</label>
+    <input type="text"   name="name"  placeholder="Enter your name" ></div>
+    <div class="pass">
+    <label>password*</label>
+     <input type="password"   name="password"  placeholder="Enter your password"></div>
+     <input type="submit" class="btn">
+
+    </form>
+    <a href="/signup" class="anchor"> Make a new Account </a>
+    </div>
+</body>
+</html>

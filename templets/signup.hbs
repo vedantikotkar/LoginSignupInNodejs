@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .b{
+        background-color:aqua;
+        margin-top:40px;
+        height:400px;
+        width:300px;
+         margin-left:400px;
+    }
+    
+    .c{
+        margin-top:60px;
+        padding:20px;
+        border-color: black;
+         margin-left:30px;
+    
+    }
+    .a{
+        margin-top:5px;
+        padding:20px;
+        border-color: black;
+        margin-left:30px;
+    }
+    
+    .y{
+        margin-top:60px;
+        margin-left:90px;
+    }
+    .btn{
+        background-color:blue;
+        color:white;
+        margin-top:80px;
+        margin-left:90px;
+    }
+    .name{
+     height:17px;
+     width:160px;
+     {{!-- border-radius:20%; --}}
+    }
+    .pass{
+     height:17px;
+     width:160px;
+      {{!-- border-radius:20%; --}}
+    }
+    </style>
+</head>
+<body>
+    <div  class="b">
+    <h2 class="y">SignUp</h2>
+    <form action="/signup" method="post">
+    <div class="c">
+        <label>YourName*</label>
+        <input type="text" name="name" placeholder="Enter your name" class="name"></div>
+     <div class="a">
+        <label>Password*</label>
+        <input type="password"   name="password"  placeholder="Enter your password" class="pass"></div>
+    <div><input type="submit" class="btn"></div> 
+    
+
+
+</div>
+    </form>
+</body>
+</html>
